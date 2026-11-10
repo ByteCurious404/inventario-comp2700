@@ -79,12 +79,12 @@ inventario.
 
 ## Ejecución
 
-python -m venv .venv
-.venv\Scripts\activate.bat      (Windows)
-source .venv/bin/activate       (macOS/Linux)
-python -m pip install -r requirements.txt
-python migrar.py                (solo la primera vez, migra claves a hashes)
-python app.py
+- python -m venv .venv
+- .venv\Scripts\activate.bat      (Windows)
+- source .venv/bin/activate       (macOS/Linux)
+- python -m pip install -r requirements.txt
+- python migrar.py                (solo la primera vez, migra claves a hashes)
+- python app.py
 
 ## Contenido
 
