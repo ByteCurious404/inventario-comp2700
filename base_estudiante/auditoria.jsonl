@@ -1,0 +1,20 @@
+{"fecha_hora": "2026-11-06T19:41:35", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-06T19:43:47", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-06T19:50:13", "usuario": "admin", "accion": "login", "resultado": "fallido"}
+{"fecha_hora": "2026-11-06T19:52:14", "usuario": "POPO", "accion": "login", "resultado": "fallido"}
+{"fecha_hora": "2026-11-06T20:23:31", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-06T20:23:31", "usuario": "user", "accion": "modificar", "resultado": "rechazado", "producto": "P001"}
+{"fecha_hora": "2026-11-06T20:23:31", "usuario": "sin_sesion", "accion": "modificar", "resultado": "rechazado", "producto": "P001"}
+{"fecha_hora": "2026-11-06T22:28:03", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-06T22:30:09", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 10, "nueva": 0}
+{"fecha_hora": "2026-11-06T22:30:20", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 0, "nueva": 1000}
+{"fecha_hora": "2026-11-06T22:31:05", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 1000, "nueva": 10}
+{"fecha_hora": "2026-11-06T22:45:27", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-06T22:46:14", "usuario": "user", "accion": "modificar", "resultado": "rechazado", "producto": "P001"}
+{"fecha_hora": "2026-11-06T22:48:09", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-06T22:48:36", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 10, "nueva": 20}
+{"fecha_hora": "2026-11-06T22:58:02", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-06T23:33:58", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-06T23:43:26", "usuario": "AdminDemo2700!", "accion": "login", "resultado": "fallido"}
+{"fecha_hora": "2026-11-06T23:43:33", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-06T23:49:06", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
