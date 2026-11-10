@@ -79,12 +79,36 @@ inventario.
 
 ## Ejecución
 
-- python -m venv .venv
-- .venv\Scripts\activate.bat      (Windows)
-- source .venv/bin/activate       (macOS/Linux)
-- python -m pip install -r requirements.txt
-- python migrar.py                (solo la primera vez, migra claves a hashes)
-- python app.py
+Nota sobre la estructura: los archivos del proyecto están dentro de la
+carpeta base_estudiante del repositorio. Al clonar, entre primero a esa
+carpeta antes de ejecutar cualquier comando.
+
+    git clone https://github.com/ByteCurious404/inventario-comp2700.git
+    cd inventario-comp2700
+    cd base_estudiante
+
+Requiere Python 3.10 o posterior. Desde esta carpeta:
+
+    python -m venv .venv
+
+Windows CMD:
+
+    .venv\Scripts\activate.bat
+
+macOS/Linux:
+
+    source .venv/bin/activate
+
+Luego:
+
+    python -m pip install -r requirements.txt
+    python app.py
+
+En algunos sistemas debe utilizar python3 en lugar de python.
+
+Nota: usuarios.json ya contiene los hashes Argon2id, por lo que NO es
+necesario ejecutar migrar.py. Ese script se conserva como evidencia del
+proceso de migración que se realizó una sola vez.
 
 ## Contenido
 
